@@ -1,0 +1,111 @@
+
+legend{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:22px;
+}
+label.invalid {
+	color:red;
+	font-weight:bold;
+	font-size:19px;
+}
+label.valid {
+	color:black;
+	font-weight:lighter;
+	font-size:17px;
+}
+label{
+	font-family:Arial;
+	font-weight:lighter;
+	font-size:20px;
+}
+
+
+input[type=text] {
+	border-radius: 0px;
+	height:30px;
+	width: 300px;
+	font-size:16px;
+	}
+	
+input[type=number] {
+	border-radius: 0px;
+	height:30px;
+	width: 300px;
+	font-size:16px;
+	}
+	
+input[type=email] {
+	border-radius: 0px;
+	height:30px;
+	width: 300px;
+	font-size:16px;
+	}
+	
+.styled{
+ font-size:20px;
+ }
+
+input[type=submit] {
+	color: #fff;
+	font-size: 16px;
+	border-radius: 0px;
+	border: none;
+	margin: 5px;
+	background:#000A14;
+	width: 100px;
+	height: 40px;
+	}
+div.gam select{
+	width: 200px;
+	height:30px;
+	}
+	
+div.rasberry{
+padding-top:30px;
+padding-left:40px;
+width:735px;
+margin:auto;
+}
+
+h3{
+	font-family:"Yu Mincho Demibold";
+	font-weight:700;
+	font-size:24px;
+	color: #009300;
+	letter-spacing:1px;
+	text-align:center;
+}
+#blah{
+	text-align:center;
+}
+body {
+	background:#2F3238;
+	color:#7F8289;
+    background-repeat: no-repeat;
+	background-size: 1500px 650px;
+	font-family:'Titillium Web';
+}
+
+fieldset{
+display:block;
+}
+
+.conf1{
+display:hidden;
+}
+
+h3.conf{
+visibility: hidden;
+}
+#link{
+	text-decoration:none;
+	color:#7F8289;
+	font-family:arial;
+	letter-spacing:1px;
+	font-size:20px;
+}
+#link:hover{
+	color: #DE5E60;
+}
+div.contain{
+}

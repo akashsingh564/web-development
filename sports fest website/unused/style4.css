@@ -1,0 +1,97 @@
+
+legend{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:22px;
+}
+label.invalid {
+	color:red;
+	font-weight:bold;
+	font-size:19px;
+}
+label.valid {
+	color:black;
+	font-weight:lighter;
+	font-size:17px;
+}
+label{
+	font-family:'Titillium Web';
+	font-weight:lighter;
+	font-size:20px;
+}
+
+
+input[type=text] {
+	border-radius: 0px;
+	height:30px;
+	width: 300px;
+	font-size:16px;
+	}
+	
+input[type=number] {
+	border-radius: 0px;
+	height:30px;
+	width: 300px;
+	font-size:16px;
+	}
+	
+input[type=email] {
+	border-radius: 0px;
+	height:30px;
+	width: 300px;
+	font-size:16px;
+	}
+	
+.styled{
+ font-size:20px;
+ }
+
+input[type=submit] {
+	color: #fff;
+	font-size: 16px;
+	border-radius: 0px;
+	border: none;
+	margin: 5px;
+	background:#000A14;
+	width: 100px;
+	height: 40px;
+	}
+div.gam select{
+	width: 300px;
+	height:30px;
+	}
+	
+div.rasberry{
+padding-top:30px;
+padding-left:40px;
+width:535px;
+margin:auto;
+}
+
+h3{
+	font-family:"Arial", Times, serif;
+	color: #009300;
+}
+
+body {
+    background-image: url("form.jpg");
+	background:#2F3238;
+	color:#7F8289;
+    background-repeat: no-repeat;
+	background-size: 1500px 650px;
+	font-family:'Titillium Web';
+}
+
+fieldset{
+display:block;
+}
+
+.conf1{
+display:hidden;
+}
+
+h3.conf{
+visibility: hidden;
+}
+
+div.contain{
+}
