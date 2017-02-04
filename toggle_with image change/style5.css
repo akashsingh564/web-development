@@ -1,0 +1,35 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+h3, li{
+	display:block;
+}
+ul{
+	list-style:none;
+	margin-left:15px;
+}
+li{
+	margin-bottom:2px;
+}
+div{
+	margin:10px;
+	margin-left:20px;
+	width:150px;
+	border: 1px solid black;
+}
+.expand_on h3{
+	background:#E8E8E8 	url('minus.gif') no-repeat right center; 
+	border-bottom:1px solid black;
+	
+}
+.expand_on h3, .expand_off h3{
+	cursor:pointer;
+}
+.expand_off h3{
+	background:#E8E8E8 	url('plus.gif') no-repeat right center; 
+	border-bottom:none;
+}
+.expand_off ul{
+	display:none;
+}
